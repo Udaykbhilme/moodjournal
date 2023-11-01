@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Programming Practises Code report}
+\author{Uday K Bhilme}
+\date{0801CS221150}
+
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section*{1. Record Your Mood}
+This program lets us keep a personal mood journal. We can enter your current mood on a scale from 1 to 10, write a title for the journal entry, and add any notes we like. It's like a diary for our feelings.
+
+\section*{2. Never Lose Your Entries}
+Our mood entries are stored using a user-friendly format called JSON. This means we won't lose your mood history even if we close the program. We can revisit and reflect on your past emotions.
+
+\section*{3. Back Up Your Mood Data}
+We can export your mood journal to a file. Think of it as creating a backup of our emotions. It's handy for saving your mood journal or sharing it with friends or therapists.
+
+\section*{4. Bring Back the Past}
+If we ever need to restore your previous mood entries or move them to another device, you can import your data from a JSON file.
+
+\section*{5. Reflect on Your Journey}
+The program allows us to view all your recorded mood entries. We'll see our journal titles, mood ratings, and any notes we've added. This feature is like a mirror to our past feelings.
+
+\section*{6. Easy Navigation}
+With a simple menu-driven interface, we can easily add, view, export, or import mood entries. It's designed to be user-friendly and straightforward.
+
+\section*{7. No More Bad Ratings}
+To make sure our mood ratings make sense, the program checks that they are between 1 and 10. This helps maintain the quality of our mood data.
+
+\section*{8. Safety Net for Errors}
+If something unexpected happens, don't worry. The program is prepared to handle issues when saving or loading our mood data. It's like a safety net for our emotions.
+
+\section*{9. Code That Makes Sense}
+The program's code is clean and organized. Variable and method names are chosen carefully to make it easy to understand and modify. Think of it as a well-organized bookshelf for your code.
+
+\section*{10. Embrace Self-Discovery}
+Beyond all the technical aspects, this program encourages self-reflection. It's a tool to better understand our moods and emotions over time. It helps you become more self-aware and gain insights into our feelings and experiences.
+
+\begin{figure*}[b]
+    \centering
+    \includegraphics[width=0.8\linewidth]{image.png}
+    \caption{the Output 1}
+    \label{fig:enter-label}
+\label{fig:example}
+\end{figure*}
+\begin{figure*}[b]
+    \centering
+   \includegraphics[width=0.8\linewidth]{output.png}
+    \caption{the entries}
+   \label{fig: the pic}
+     \label{fig: example}
+\end{figure*}
+
+\begin{figure*}[b]
+    \centering
+    \includegraphics[width=0.5\linewidth]{output 2.png}
+    \caption{The entries 2}
+    \label{fig:the pic}
+\end{figure*}
+
+\begin{figure*}[b]
+    \centering
+    \includegraphics[width=0.8\linewidth]{output 4.png}
+    \caption{the Menu}
+    \label{fig:menu}
+\end{figure*}
+\end{document}
